@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #EEEEEE;
+
+}
+#nav{
+	background:#1a1c22;
+	border-radius:0px;
+}
+
+#nav ul li{
+	font-size: 18px;
+	 font-family: Berlin Sans FB;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+      min-height: 450px;
+      max-height: 450px;
+
+}
+
+#slider-1 .carousel-caption h3,
+#slider-2 .carousel-caption h3{
+	margin-top: -250px;
+	color: black;
+}
+#slider-1 .carousel-caption h3{
+	font-size: 50px;
+	font-family: serif;
+	font-weight: bold;
+}
+#slider-1 .carousel-caption p,
+#wrapper #header p{
+	font-size: 18px;
+	font-family:Lucida Sans;
+
+}
+#wrapper{
+	margin-top: 40px;
+	padding-bottom: 50px;
+}
+
+#wrapper #header h1{
+	font-family: serif;
+
+
+}
+#wrapper #header span{font-family:Lucida Sans;}
+#left-side-cart a{font-family:Lucida Sans;}
+#left-side-cart a i{ padding-right:20px; }
+#left-side-cart #price{
+	margin-left: 15px;
+	margin-top: 15px;
+	padding-bottom: 15px;
+}
+
+#left-side-cart label{color:#E0E0E0;}
+
+#right-side-cart .thumbnail {background: #EEEEEE;padding: 0px;}
+#right-side-cart .thumbnail img{height: 250px;width: 100%;}
+
+#right-side-cart .thumbnail .caption button{background: #fff;border:1px solid rgba(0,0,0,0.2);}

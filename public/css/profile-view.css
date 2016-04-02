@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #EEEEEE;
+
+}
+#nav{
+	background:#1a1c22;
+	border-radius:0px;
+}
+
+#nav ul li{
+	font-size: 18px;
+	 font-family: Berlin Sans FB;
+}
+
+#wrapper {margin-top: 25px;}
+
+#left-side {border-right: 2px solid rgba(0,0,0,0.1); }
+#left-side .thumbnail img{width: 100%; max-height: 250px;min-height: 250px;}
+#left-side a i{padding-right: 10px;}
+#left-side {font-family:Lucida Sans;}
+
+#right-side #hr_line {border-bottom: 2px solid rgba(0,0,0,0.1);width: 70%;margin-bottom: 15px;}
+
+#hr_line .well button {margin-top: 5px;}
+#product .thumbnail img{height: 250px;width: 100%;max-width: 250px;}
+
+#wait img{width: 100px;height:100px;margin-top: 150px;}

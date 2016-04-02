@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>home page trial</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="fashionable house">
+  <meta name="keywords" content="fashion house">
+  <meta name="author" content="adrian">
+
+
+  <!-- bootstrap Core CSS!-->
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" >
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- Custom fonts!-->
+  <link rel="stylesheet" href="https://maxcdn.b>ootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="public/css/navbar.css">
+  <link rel="stylesheet" href="public/css/override.css" type="text/css">
+  <link rel="stylesheet" href="public/css/login_form.css" type="text/css">
+  <link rel="stylesheet" href="../public/css/button.css" type="text/css">
+  <link rel="stylesheet" href="public/font/font.css" type="text/css">
+  <link rel="stylesheet" href="profile.css" type="text/css">
+<style type="text/css">
+  .image-preview-input input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+</style>
+</head>
+<body>
+  
+  
+          <div class="input-group image-preview">
+           <input placeholder="" type="text" class="form-control " disabled="disabled">
+            <!-- don't give a name === doesn't send on POST/GET --> 
+            <span class="input-group-btn"> 
+            <!-- image-preview-clear button -->
+            <button type="button" class="btn btn-default" style="display:none;"> <span class="glyphicon glyphicon-remove"></span> Clear </button>
+            <!-- image-preview-input -->
+            <div class="btn btn-default image-preview-input"> <span class="glyphicon glyphicon-folder-open"></span> <span class="image-preview-input-title">Browse</span>
+              <input type="file" accept="image/png, image/jpeg, image/gif" name="input-file-preview"/>
+              <!-- rename it --> 
+            </div>
+            <button type="button" class="btn btn-labeled btn-default"> <span class="btn-label"><i class="glyphicon glyphicon-upload"></i> </span>Upload</button>
+            </span> </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--wrapper!-->
+<div class="container-fluid">
+ <!--  <div class="panel panel-default panel-body"> -->
+    <!--cover and propic!-->
+    <div class="col-sm-12">
+      <!--cover!-->
+      <div class="col-sm-12" >
+        <img src="../public/image/4-1600.jpg" class="img-thumbnail center-block img-responsive"  id="cover">
+        <!--upload button!-->
+          <span class="btn btn-file" id="cover_btn" >
+          <img src="../public/image/cam.png" alt="cover_button" >
+          </span>
+
+
+
+
+        </div>
+
+     <!--  <!--cover!-->
+      <!--pro!-->
+      <div class="col-sm-2 col-md-3" >
+        <img src="../public/image/4-1600.jpg" class="img-thumbnail center-block img-responsive pro_pic" >
+        <!--upload button!-->
+        <span class="btn btn-file " id="pro_btn">
+          <img src="../public/image/cam.png" alt="" class="img " name="cover">
+        </span>
+      </div>
+      <!--pro!-->
+
+      
+          <div class="col-sm-8">
+          <div id="a">
+            <input type="file">
+          <input type="submit">
+          </div>
+          </div>
+    </div>
+    <!--cover and propic!-->
+  <!-- </div> -->
+</div>
+<!--wrapper!-->
+<!-- ############################################################################################!-->
+<!--wrapper body!-->
+<div class="container-fluid">
+  <div class="col-md-12">
+  <!--Other content!-->
+  <div class="col-md-3">
+  <!--Side content!-->
+    <div class="well">
+     
+      <ul class="list-group"  >
+        <!-- Profile!-->
+        <a href="#"><li class="list-group-item"><span class="glyphicon glyphicon-home" id="menu_icon"> </span> <span class=""> </span>Profile</li></a>
+        <!-- Messages!-->
+        <a href="#"><li class="list-group-item"><span class="glyphicon glyphicon-envelope" id="menu_icon"> </span><span class="badge">5</span>Messages</li></a>
+        <!--About!-->
+        <a href="#"><li class="list-group-item"><span class="glyphicon glyphicon-info-sign" id="menu_icon"> </span><span class="badge">5</span>About</li></a>
+         Notification!
+        <a href="#"><li class="list-group-item"><span class="glyphicon glyphicon-globe" id="menu_icon"> </span><span class="badge">14</span>Notification</li></a>
+        <!-- Gallery!-->
+        <a href="#"><li class="list-group-item"><span class="glyphicon glyphicon-picture" id="menu_icon"> </span><span class="badge">2</span>Gallery</li>
+        <!-- Settings!-->
+        <a href="#"><li class="list-group-item"><span class="glyphicon glyphicon-cog" id="menu_icon"> </span><span class="">  </span>Settings</li></a>
+        <!-- Help!-->
+        <a href="#"><li class="list-group-item"><span class="glyphicon glyphicon-wrench" id="menu_icon"> </span><span class="">  </span>Help</li></a>
+        <!-- Support inbox!-->
+        <a href="#"><li class="list-group-item"><span class="glyphicon glyphicon-envelope" id="menu_icon"> </span><span class="badge">2</span>Support Inbox</li></a>
+       
+      </ul>
+      
+    </div>
+  <!-- Side content!-->
+  </div>
+  <!--Other content!-->
+
+  <!--Side other content!-->
+  <div class="col-sm-6">
+    <!--Side Other content!-->
+    <div class="well">
+      
+    </div>
+    <!--Side other content !-->
+  </div>
+  <!--Side other content!-->
+
+  <!--Right side content!-->
+  <div class="col-sm-3">
+    <div class="well">
+      what the fuck
+    </div>
+  </div>
+  <!--Right side content!-->
+  </div>
+</div>
+<!--Wrapper body!-->
+
+
+
+</body>
+ -->

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>home page trial</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="fashionable house">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="author" content="adrian">
+
+
+	<!-- bootstrap Core CSS!-->
+	   <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	   <!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+
+	<!-- jquery script!-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	   <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+	<!-- Custom fonts!-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<!--custom javascript!-->
+
+	<style type="text/css">
+	.img{height: 30px;width: 30px;}
+	.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+    float: right;
+}
+	</style>
+
+</head>
+<body >
+	
+	<div class="container-fluid" style="margin-top:5%;">
+	<!-- Logging form start !-->
+	<div class="col-sm-offet-1" >
+		<!-- Profile picture side !-->
+		<form action="" method="" role="form" enctype="multipart/form-data" >
+			<div class="col-sm-10 well">
+				<div class="panel panel-default col-sm-4 " style="padding-top:5%;" >
+					<div class="well">
+						<img src="profile.jpg"class="img-thumbnail center-block" style="width:200px; height:200px;">
+						
+							<!-- !-->
+						
+	                        <span class="btn btn-file ">
+		    						<img src="cam.png" alt="" class="img"><input type="file"  >	Upload Profile Picture
+							</span>
+	                   
+							<!-- </form> !-->
+					</div>
+				</div>
+			<!-- Logging other stuff side !-->
+				<div class="panel panel-default col-sm-8" style="padding-top:5%;">
+				<div class="well">
+				<!-- username !-->
+				<div class="row">
+					<div class="form-group col-sm-9">
+						<div class="input-group">
+							<span class="input-group-addon">
+								<i class="glyphicon glyphicon-user"></i>
+							</span>
+							<input type="text" name="username" class="form-control" placeholder="User Name">
+						</div>
+					</div>
+					<!-- error showing !-->
+					<span class="error"><i>fuck</i></span>
+				</div>
+				<!-- password !-->
+				<div class="row">
+					<div class="form-group col-sm-9">
+						<div class="input-group">
+							<span class="input-group-addon">
+								<i class="glyphicon glyphicon-user"></i>
+							</span>
+							<input type="password" name="password" class="form-control" placeholder="Password">
+						</div>
+					</div>
+
+					<!-- error showing !-->
+					<span class="error"><i>fuck</i></span>
+				</div>
+
+					<!-- BUTTON SECTION !-->
+					<div class="form-group">
+						<div>
+							<button class="btn btn-info" type="submit" id="validate"><span class="glyphicon glyphicon-log-in"></span> Login</button>
+							<a href="login.php?reg" class="btn btn-default" type="submit" ><span class="glyphicon glyphicon-user"></span> Sign up</a></center><legend>or</legend>
+							<input type="button" class="btn btn-primary  " value="Login with Facebook"  />
+						</div>
+					</div>
+					
+					</div >
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

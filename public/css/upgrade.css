@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #EEEEEE;
+
+}
+#nav{
+	background:#1a1c22;
+	border-radius:0px;
+}
+
+#nav ul li{
+	font-size: 18px;
+	 font-family: Berlin Sans FB;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+      min-height: 450px;
+      max-height: 450px;
+      
+
+}
+
+#slider-1 .carousel-caption h3,
+#slider-2 .carousel-caption h3{
+	margin-top: -250px;
+	color: #BA68C8;
+}
+#slider-2 .carousel-caption h3{
+	font-size: 50px;
+	font-family: serif;
+	font-weight: bold;
+
+}
+#slider-2 .carousel-caption p,
+#wrapper #header p{
+	font-size: 18px;
+font-family: Lobster Two;
+	color :#1A237E;
+
+}
+
+#slider-2 img{opacity: 0.6;}
+
+#wrapper{
+	margin-top: 40px;
+	padding-bottom: 50px;
+}
+
+#wrapper #header h1{
+	font-family: serif;
+
+
+}
+
+
+#pro {
+	padding-bottom: 50px;
+	margin-bottom: 150px;
+	background-image: url(../image/background/gig.jpg);
+	margin: 0;
+	max-width: 100%;
+	max-height: 550px;
+	min-height:550px;
+	font-family: Raleway;
+	-moz-box-shadow: 3px 6px 20px rgba(1, 1, 1,0.4);
+	-webkit-box-shadow: 3px 6px 20px rgba(1, 1, 1,0.4);
+	box-shadow: 3px 6px 20px rgba(1, 1, 1,0.4);	
+
+}
+#pro #main_heading {
+	text-align: center;
+	font-family: Lobster;
+	font-size: 30px;
+	color: black
+}
+
+#pro h4{font-family: Bangers;color:#002054;}
+#pro p{font-family: Righteous;color:#000000;
+}
+#pro button{
+	background:#cecece;
+	border: 1px solid rgba(0, 51, 102,0.5);
+	font-family: Lobster Two;
+	font-size: 18px;
+	font-weight: bold;
+	color:#000000;
+}
+
+#pro_background{	}
+	.panel-body>hr{padding: 2%;margin: 0;}
